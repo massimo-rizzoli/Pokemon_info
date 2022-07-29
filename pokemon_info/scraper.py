@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from CSV import CSV
+from pokemon_info.CSV import CSV
 import os
 from tqdm import tqdm
 from typing import List
