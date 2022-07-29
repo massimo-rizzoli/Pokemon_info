@@ -16,7 +16,7 @@ class CSV:
         Appends rows to the csv file specified using the entered dataframe
         :return: no return type
         """
-        with open(self.name, 'a') as file:
+        with open(self.name, 'w') as file:
             writer = csv.writer(file)
             for row in self.dataframe:
                 writer.writerow(row)
